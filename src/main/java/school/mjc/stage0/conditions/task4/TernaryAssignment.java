@@ -5,8 +5,8 @@ public class TernaryAssignment {
 
     }
     public void assignAndPrintBasedOnWhichBigger(int first, int second) {
-        String result;
-        result = first > second  ? "10\n" : "-10\n";
+        int result;
+        result = first > second  ? 10 : -10;
         System.out.println(result);
     }
 }
