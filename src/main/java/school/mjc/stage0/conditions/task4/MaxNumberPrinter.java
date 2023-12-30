@@ -5,10 +5,10 @@ public class MaxNumberPrinter {
 
     }
     public void printGreatest(int first, int second, int third) {
-        int max ;
+        int max;
         if (first >= second && first >= third){
             max = first;
-        } else if(second > first && second > third){
+        } else if(second > first && second >= third){
             max = second;
         }
         else{
