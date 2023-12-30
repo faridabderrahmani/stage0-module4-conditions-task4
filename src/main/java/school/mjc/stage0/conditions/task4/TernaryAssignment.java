@@ -1,10 +1,11 @@
 package school.mjc.stage0.conditions.task4;
 
 public class TernaryAssignment {
-    public void printGreatest(int first, int second) {
+    public static void main(String[] args) {
 
-        int max = first > second
-        ? first
-        : second;
+    }
+    public void assignAndPrintBasedOnWhichBigger(int first, int second) {
+        int result = first >= second  ? 10 : -10;
+        System.out.println(result);
     }
 }

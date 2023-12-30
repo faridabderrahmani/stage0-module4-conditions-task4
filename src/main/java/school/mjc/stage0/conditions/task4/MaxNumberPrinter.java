@@ -2,9 +2,9 @@ package school.mjc.stage0.conditions.task4;
 
 public class MaxNumberPrinter {
     public static void main(String[] args) {
-        printGreatest(25, 65, 25);
+
     }
-    public static void printGreatest(int first, int second, int third) {
+    public void printGreatest(int first, int second, int third) {
         int max ;
         if (first >= second && first >= third){
             max = first;
